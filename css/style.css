@@ -154,6 +154,18 @@ li {
   margin: 0 0 10px 18px;
   position: relative;
 }
+#work .zoom-box {
+  display: inline-block;
+  overflow: hidden;
+}
+#work .zoom {
+  display: block;
+  transition-duration: .5s;
+}
+#work .zoom:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
 
 /* business */
 #business {
