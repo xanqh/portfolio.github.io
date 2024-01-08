@@ -7,6 +7,7 @@ body {
   background-color: #f0f0f0;
   color: #000;
   font-size: 0.875rem;
+  font-family: 'Noto Serif JP', serif;
   margin: 0;
 }
 a {
@@ -66,7 +67,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
 }
 #header .inner {
   display: flex;
@@ -213,4 +213,111 @@ li {
 #footer .copyright {
   font-size: 0.625rem;
   text-align: center;
+}
+
+/** sp */
+@media screen and (max-width: 900px) {
+  .logo {
+    margin: 0;
+  }
+  .section-title {
+    margin-bottom: 34px;
+  }
+  .section-title .ja {
+    margin-bottom: 24px;
+  }
+  .wrap_original {
+    overflow: hidden;
+  }
+
+  /** header */
+  #header .logo img {
+    height: 25px;
+    width: 60px;
+    margin-top: 15px;
+  }
+  #header .inner {
+    flex-direction: column;
+    align-items: flex-start ;
+  }
+  #header .contact1 {
+    display: none;
+  }
+
+  /** mainvisual */
+  #mainvisual {
+    margin-bottom: 80px;
+  }
+
+  /** about */
+  #about {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  #about .img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #about .text {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  /** work */
+  #work {
+    margin-bottom: 80px;
+  }
+  #work .flex {
+    flex-direction: column;
+    padding: 0;
+  }
+  #work .flex .left {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+  #work .flex .right {
+    width: 100%;
+  }
+  #work .flex .item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #work .flex .title {
+    text-align: left;
+  }
+
+  /** business */
+  #business {
+    margin-bottom: 80px;
+  }
+  #business .flex {
+    flex-direction: column;
+    padding: 0;
+  }
+  #business .flex .left {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+  #business .flex .right {
+    width: 100%;
+  }
+  #business .flex .item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #business .flex .title {
+    text-align: left;
+  }
+
+  /** footer */
+  #footer {
+    height: 320px;
+  }
+  #footer .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #footer .flex .logo {
+    margin-bottom: 10px;
+  }
 }
