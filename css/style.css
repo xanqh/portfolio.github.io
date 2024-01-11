@@ -207,6 +207,15 @@ li {
   padding: 40px 0;
   line-height: 2;
 }
+#footer .contact2 li {
+  margin-bottom: 10px;
+}
+#footer .contact2 a {
+  text-decoration: underline double #000000;
+}
+#footer .contact2 a:hover {
+  opacity: 0.6;
+}
 #footer .flex .logo {
   margin-left: 0;
 }
